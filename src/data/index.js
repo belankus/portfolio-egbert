@@ -26,12 +26,12 @@ import People3 from "../assets/img/testimonial/people-3.jpg";
 export const navLinks = [
   {
     id: 1,
-    path: "",
+    path: "home",
     text: "Home",
   },
   {
     id: 2,
-    path: "syaratketen", 
+    path: "about", 
     text: "About", //Syarat & Ketentuan tentang skill
   },
   {

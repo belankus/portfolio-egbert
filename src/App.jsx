@@ -20,11 +20,11 @@ function App() {
     <NavbarComponent /> 
 
       <Routes>
-        <Route path="/" Component={HomePage}/>
+        <Route path="/home" Component={HomePage}/>
         <Route path="/portofolio" Component={PortofolioPage}/>
         <Route path="/testimonial" Component={TestimonialPage}/>
         <Route path="/faq" Component={FaqPage}/>
-        <Route path="/syaratketen" Component={SyaratPage}/>
+        <Route path="/about" Component={SyaratPage}/>
       </Routes>
 
       <FooterComponent />
